@@ -1,0 +1,359 @@
+li{list-style: none;}
+ul,li,header,body,h6,html,div,p{margin: 0px;padding: 0px;}
+a{text-decoration: none;}
+/*------------------header----------------------*/
+.header .top{
+	height: 25px;
+	border-bottom: 1px solid #bbb;
+}
+.header .top h6{
+	padding-top: 7px;
+	padding-bottom: 7px;
+	float: right;
+}
+.header .bot .right{
+    text-align: center;
+    margin-top: 15px;
+
+}
+/*-------------sec-1--------------*/
+.sec_1{
+	position: relative;
+}
+.sec_1 .img-1 img{
+	width: 100%;
+}
+.sec_1 .ban{
+	position: relative;
+}
+/*.sec_1 .ban .ban_img{
+	position:absolute;
+	height: 50%;
+	width: 60%;
+	bottom: 75%;
+	left: 22%;
+}*/
+.sec_1 .ban .ban_img img{
+	display: inline-block;
+	margin:0;
+	padding: 0;
+}
+.sec_1 .ban .ban_img .ig_1{
+	z-index: 0;
+	position: absolute;
+	left: 30%;
+	bottom: 70%;
+/*	transform: scale(1.3);*/
+}
+.sec_1 .ban .ban_img .ig_2{
+	z-index: 0;
+	position: absolute;
+	left: 15%;
+	bottom: 70%;
+}
+.sec_1 .ban .ban_img .ig_3{
+	z-index: 0;
+	position: absolute;
+	left: 45%;
+	bottom: 70%;
+}
+.sec_1 .ban .ban_img .ig_4{
+	z-index: 0;
+	position: absolute;
+	left: 60%;
+	bottom: 70%;
+}
+.sec_1 .title{
+	position: absolute;
+	height: 15%;
+	width: 100%;
+	bottom: 1%;
+	padding-left: 20%;
+}
+.sec_1 .title .box{
+	width: 18%;
+	display: inline-block;
+	padding-top: 22%;
+	margin-right: 1%;
+	opacity: 0;
+	background-color: #292929;
+}
+.sec_1 .title .box-2{
+	margin-right: 2%;
+}
+.sec_1 .title .box-3{
+	margin-right: 2%;
+}
+@media screen and (max-width: 768px){
+	.sec_1 .title{
+		position: absolute;
+		height: 15%;
+		width: 100%;
+		bottom: 1%;
+		padding-left: 15%;
+	}
+	.sec_1 .title .box-1 {
+		background-color: #292929;
+		opacity: 0;
+		width: 17%;
+		display: inline-block;
+		padding-top: 19%;
+		position: absolute;
+		left:18%;
+	}
+	.sec_1 .title .box-2{
+		width: 17%;
+		display: inline-block;
+		padding-top: 19%;
+		position: absolute;
+		left: 34%;
+		background-color: #292929;
+		opacity: 0;
+	}
+	.sec_1 .title .box-3{
+		width: 17%;
+		display: inline-block;
+		padding-top: 19%;
+		position: absolute;
+		left: 50%;
+		background-color: #292929;
+		opacity: 0;
+	}
+	.sec_1 .title .box-4{
+		width: 17%;
+		display: inline-block;
+		padding-top: 19%;
+		position: absolute;
+		left: 67%;
+		background-color: #292929;
+		opacity: 0;
+	}
+}
+/*------------sec-2--------------*/
+.sec_2 .cen div img{
+	margin: auto;
+}
+.sec_2 .cen div{
+	position: relative;
+	transform: scale(0.9);
+	padding: 0;
+}
+
+.sec_2 .cen div .shadow{
+	position: absolute;
+	width: 100%;
+	height: 40%;
+	background-color: #9a9da2;
+	opacity: 0.5;
+	bottom: 0px;
+}
+@media screen and (min-width: 610px) and (max-width: 768px) {
+
+
+}
+.sec_2 .news{
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+.sec_2 .news .one .con{
+	padding-left:  5%;
+	padding-top: 3%;
+	display:inline-block;
+}
+.sec_2 .news .one .con .content{
+	margin-top:10%;
+}
+.sec_2 .news .one .con .content .row-2{
+	color: red;
+}
+.sec_2 .news .one .con .content strong{
+	float: right;
+}
+.sec_2 .news .one .new{
+	margin: 3%;
+	transform: scale(0.9);
+}
+.sec_2 .news .two .new{
+	margin: 3%;
+	transform: scale(0.9);
+}
+.sec_2 .bot .contact{
+	position: relative;
+}
+.sec_2 .bot .contact .one{
+	position:absolute;
+	top: 10%;
+	left:40%;
+	width: 40%;
+	height: 20%;
+}
+.sec_2 .bot .contact .one button{
+	border-radius: 50px;
+	width: 20%;
+	height: 50%;
+	margin-right: 10%;
+	padding:0;
+	outline: none;
+
+}
+.sec_2 .bot .contact form .form_one{
+	position:absolute;
+	top: 35%;
+	left:38%;
+	width: 25%;
+}
+.sec_2 .bot .contact form .form_one input{
+	width: 30%;
+	margin-right: 2%;
+	padding: 0;
+}
+.sec_2 .bot .contact form .form_two{
+	position:absolute;
+	top: 48%;
+	left:38%;
+	width: 23%;
+}
+.sec_2 .bot .contact form .form_two textarea{
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+}
+@media screen and (min-width: 950px) {
+	.sec_2 .bot .contact form .form_two{
+		position:absolute;
+		top: 46%;
+		left:38%;
+		width: 24%;
+		height: 20%;
+
+	}
+}
+.sec_2 .bot .contact form .form_three{
+	position:absolute;
+	top: 70%;
+	left:38%;
+	width: 25%;
+}
+.sec_2 .bot .contact form .form_three input{
+	width: 30%;
+	margin-right: 2%;
+	padding: 0;
+}
+@media screen and (max-width: 820px) {
+	.sec_2 .bot .contact form .form_one{
+		left: 37%;
+		width: 27%;
+	}
+	.sec_2 .bot .contact form .form_one input{
+		margin-right: 1%;
+	}
+	.sec_2 .bot .contact form .form_three{
+		left: 37%;
+		width: 27%;
+	}
+	.sec_2 .bot .contact form .form_three input{
+		margin-right: 1%;
+	}
+}
+@media screen and (max-width: 768px) {
+	.sec_2 .bot .contact form .form_one{
+		height: 10%;
+		font-size: 10px;
+	}
+	.sec_2 .bot .contact form .form_one input{
+		width: 27%;
+		height: 100%;
+	}
+	.sec_2 .bot .contact form .form_two{
+		position:absolute;
+		top: 48%;
+		left:37%;
+		width: 23%;
+		height: 18%;
+
+	}
+	.sec_2 .bot .contact form .form_three{
+		height: 10%;
+	}
+	.sec_2 .bot .contact form .form_three input{
+		height: 100%;
+		width: 27%;
+	}
+}
+.sec_2 .news .one .con{
+	position: relative;
+}
+.sec_2 .news .one .con .title span strong{
+	font-size: 2.5em;
+	color: red;
+}
+.sec_2 .news .one .con .content .row-2{
+	font-size: 1.5em;
+}
+.sec_2 .news .one .con .content hr{
+	margin-top: 1%;
+}
+.sec_2 .news .one .con .content .row-3{
+	font-size: 1em;
+}
+@media screen and (max-width: 990px){
+	.sec_2 .news .one .con .title span strong{
+		font-size: 1.5em;
+		color: red;
+	}
+	.sec_2 .news .one .con .content .row-2{
+		font-size: 1em;
+	}
+	.sec_2 .news .one .con .content .row-3{
+		font-size: 0.5em;
+	}
+	.sec_2 .news .one .con .content{
+		margin-top:5%;
+	}
+	.sec_2 .news .one .con .content hr{
+		margin-top: 1%;
+		margin-bottom: 2%;
+	}
+}
+@media screen and (max-width: 768px){
+
+}
+.sec_2 .news .one .con .content .icon{
+	position: absolute;
+	right: 0;
+	top: 103%;
+/*	transform: scaleX(1.5);*/
+}
+/*-------------footer-----------*/
+.footer{
+	margin-top: 3%;
+}
+.footer .left .list ul li{
+	margin: 20px auto;
+}
+.footer .left .list ul li a{
+	color: black;
+	text-decoration: none;
+}
+.footer .right .top{
+	margin: 20px auto;
+}
+.footer .right .top .phone-num{
+	font-size: 1.7em;
+	font-weight: 600;
+	color: red;
+}
+.footer .right .top .en{
+	font-size: 0.5em;
+}
+.footer .left .list ul li .li-t{
+
+}
+/*copyright*/
+.info{
+	padding-left: 45px;
+	padding-bottom: 3%;
+	position: relative;
+	bottom: 25px;
+
+}
