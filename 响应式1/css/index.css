@@ -1,0 +1,313 @@
+/* 清除内外边距 */
+html,body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+fieldset, lengend, button, input, textarea, /* form elements 表单元素 */
+th, td { /* table elements 表格元素 */
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/*****************************************************************header***********************************************************************/
+.header .top{
+	height: 35px;
+	background-color: #c0c0c0;
+	color: #fff;
+}
+.header .top .left .left{
+	border-left: 1px solid #fff;
+}
+.header .top .left div{
+	line-height: 35px;
+	border-right: 1px solid #fff;
+	text-align: center;
+	padding: 0;
+}
+.header .top .left div .letter-icon,.header .top .left div .phone-icon{
+	margin:0 5px;
+	color: red;
+}
+.header .top .right{
+	width:30%;
+	height: 35px;
+	background-color: red;
+	position: absolute;
+	top:0;
+	right: 0;
+}
+.header .bar div{
+	margin:0;
+	padding:0;
+	text-align: center;
+}
+.header .bar .right{
+	text-align: center;
+	line-height: 100px;
+	font-weight: 700;
+	margin-top: 10px;
+}
+@media screen and (max-width:1200px){
+	.header .bar .left{
+		margin-top: 30px;
+	}
+}
+@media screen and (max-width:768px){
+	.header .bar .right{
+		line-height: 40px;
+		font-weight: 700;
+	}
+	.header .bar .right div{
+
+	}
+}
+.header .xs{
+	height: 30px;
+	background-color: #414141;
+	color: #fff;
+	font-size: 2rem;
+}
+.header .xs .icon{
+	margin: 2px auto;
+}
+/**************************************************************sec_1********************************************************************/
+.sec_1 .product .title{
+	text-align: center;
+	margin-top: 50px;
+}
+.sec_1 .product .title h1{
+	line-height: 150px;
+}
+.sec_1 .product .con{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.sec_1 .product .block{
+	text-align: center;
+	line-height: 40px;
+}
+.sec_1 .product .block .t span{
+	border:1px solid #c0c0c0;
+	background-color: #ededed;
+	font-weight: 700;
+	line-height: 40px;
+	display: inline-block;
+	width: 90%;
+	margin-bottom: 50px;
+}
+.sec_1 .product .block .t span:hover{
+	background-color: red;
+	color: #fff;
+}
+.sec_1 .product .img div img{
+	margin: 0 auto;
+}
+.sec_1 .product .img div .font{
+	width: 80%;
+	margin: 40px auto;
+}
+.sec_1 .product .img div .font .p1{
+	margin: 10px 0px;
+	font-weight: 700;
+	text-align: center;
+}
+.sec_1 .product .img div .font .p2{
+	margin: 5px 0px;
+}
+.sec_2{
+	background-color: #eee;
+	padding-bottom: 60px;
+}
+.sec_2 .rotate .title{
+	margin: 40px auto;
+	text-align: center;
+}
+.sec_2 .rotate .instruction .top{
+	margin: 0px auto;
+	margin-top: 40px;
+	text-indent: 2rem;
+	width: 90%; 
+}
+.sec_2 .rotate .instruction .list{
+	width: 90%;
+	margin: 0 auto;
+}
+.sec_2 .rotate .instruction .list span{
+	margin-top: 5px;
+}
+.sec_3 .left .top{
+	margin-top: 50px;
+}
+.sec_3 .left .top h3{
+	border-bottom: 2px solid #c0c0c0;
+	padding-bottom: 5px;
+} 
+.sec_3 .left .top h3 b{
+	border-bottom: 2px solid red;
+	padding-bottom: 5px;
+}
+.sec_3 .left .top .p1{
+	font-weight: 700;
+	margin:30px 0px 10px 0px;
+}
+.sec_3 .left .top .p2{
+	margin:10px 0px 30px 0px;
+}
+.sec_3 .left .bot{
+	padding: 0px;
+}
+.sec_3 .left .bot div{
+	padding: 0px;
+}
+.sec_3 .left .bot .list ul li{
+	border-bottom: 1px dotted #c0c0c0;
+	padding-bottom: 10px;
+	margin-left: 5px;
+}
+.sec_3 .left .bot .list ul li p{
+	margin: 10px auto;
+}
+.sec_3 .right .top{
+	padding-top: 50px;
+}
+.sec_3 .right .top h3{
+	border-bottom: 2px solid #c0c0c0;
+	padding-bottom: 5px;
+} 
+.sec_3 .right .top h3 b{
+	border-bottom: 2px solid red;
+	padding-bottom: 5px;
+}
+.sec_3 .right .top div{
+	margin-top: 15px;
+	margin-bottom: 18px;
+}
+.sec_3 .right .bot ul li{
+	padding: 10px;
+	border-bottom: 1px dotted #c0c0c0;
+}
+.footer{
+	margin-top: 120px;
+	background-color: #1e1f23;
+	color: #fff;
+}
+.footer .out .right .top{
+	margin: 30px auto;
+}
+.footer .out .right .top div{
+	padding: 0px;
+}
+.footer .out .right .cen{
+	border:1px solid #fff;
+	padding: 10px ;
+}
+.footer .out .right .cen span{
+	text-align: center;
+}
+.footer .out .right .bot{
+	padding: 0;
+}
+.footer .out .right .bot div{
+	margin: 20px auto;
+	padding:0;
+
+}
+.footer .out .right .bot .ig{
+	height: 44px;
+	background-color: #333333;
+	border:1px solid #333333;
+}
+/******************************************************轮播图*******************************************************/
+.sec_2 .rotate .img{
+	position: relative;
+
+}
+
+.sec_2 .rotate .img .ig-1{
+	left: 10%;
+
+	transform: scale(0.8);
+}
+.sec_2 .rotate .img .ig-2{
+	left: 0%;
+	z-index: 1;
+}
+.sec_2 .rotate .img .ig-3{
+	left: -10%;
+		transform: scale(0.8);
+}
+/*************************************************sec_2***********************************************************/
+
+@media screen and (min-width:768px){
+.left-row-1{
+	margin-top: 60%;
+}
+.left-row-2{
+	margin-top: 20%;
+}
+.right-row-1{
+	margin-top: 60%;
+}
+.right-row-2{
+	margin-top:20%;
+}
+.right-row-2-out{
+	padding: 0;
+	display: table;
+}
+}
+.hover:hover{
+		color: red;
+}
+@media screen and (max-width:768px){
+/*.left-row-1{
+	float: right;
+}
+.left-row-2{
+	float: right;
+}
+.right-row-1{
+	float: right;
+}
+.right-row-2{
+	float: right;
+}
+.right-row-2-out{
+	padding: 0;
+}*/
+/*.png-1{
+	float:right; 
+}
+.png-2{
+	float:right; 
+}
+.png-3{
+	float:right; 
+}
+.png-4{
+	float:right; 
+}*/
+.row-1 div{
+	text-align: center;
+	line-height: 40px;
+}
+.row-1 p{
+	background-color: #df403e;
+	color: #fff;
+}
+.title-xs{
+	padding-top: 50px;
+	margin-bottom: 50px;
+}
+}
+/**************************************************************************************/
+.cen{
+	position: relative;
+}
+.cen-link{
+	position: absolute;
+	width: 12%;
+	height: 75%;
+	left: 20.5%;
+	top: 0;
+}
